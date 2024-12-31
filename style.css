@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.body {
+    color: aliceblue;
+    background-color: #18192D;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header-1 {
+    padding-top: 7rem;
+}
+
+#title-about {
+    position: relative;
+    left: -11px;
+    border-radius: 0rem 50rem 50rem 0rem;
+    background-color: #088395;
+}
+
+#description {
+    font-size: 0.9rem;
+}
+
+#description p {
+    text-align: justify;
+}
+
+#description p span {
+    color: #37B7C3;
+}
+
+/* #contact-info {
+    padding-top: 0.5rem; 
+    background-color: yellow;
+} */
+
+.logo {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: 5px;
+}
+
+#contact-text {
+    font-size: 0.8rem;
+    padding-top: 0.2rem;
+    margin-left: 0.7rem;
+    /* background-color: red; */
+}
+
+#container-img {
+    border: 2px groove #37B7C3;
+    /* border-radius: 15rem 50rem 5rem 25rem; */
+    border-radius: 15rem 25rem 15rem 25rem;
+}
+
+#container-img img {
+    position: relative;
+    left: -0.5rem;
+    top: 0.8rem;
+    border-radius: 15rem 25rem 15rem 25rem;
+}
+
+#hero-section #container-hero {
+    /* height: 10rem; */
+    left: -0.8rem;
+    /* padding: 3rem 5rem; */
+    position: relative;
+    background-color: #088395;
+    border-radius: 0 10rem 12rem 0;
+    box-shadow: 0 0 0.8rem 0.2rem #37B7C3;
+}
+
+.content-education .place p:first-child {
+    font-size: 0.9rem;
+}
+
+.content-education .place p:nth-child(2) {
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+.content-education .years p {
+    font-size: 0.9rem;
+    margin-left: 5rem;
+}
+
+#container-logo-skill .logo-skill img {
+    width: 2.3rem;
+    height: 100%;
+}
+
+#box-interest p span {
+    margin-right: 1rem;
+}
+
+#box-interest p span:not(:nth-of-type(2)) {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.divider {
+    width: 0.1rem;
+    background-color: #aaa;
+    height: 1rem;
+    margin-right: 2rem;
+}
+
+.skill-row p {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+#box-container-portofolio .box-portofolio {
+    color: #EBF4F6;
+    background: linear-gradient(#37B7C3, #071952, #088395);
+}
+
+#box-container-portofolio .box-portofolio img {
+    height: 11rem;
+}
+
+.box-portofolio .box-text-portofolio h5 {
+    /* height: 4.5rem; */
+    font-weight: bold;
+}
+
+.box-portofolio .box-text-portofolio p {
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+#footer-section {
+    height: 3.5rem;
+    width: 110%;
+    position: relative;
+    left: -2rem;
+    background: linear-gradient(#071952, #088395, #37B7C3);
+}
