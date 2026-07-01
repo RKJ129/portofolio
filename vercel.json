@@ -1,0 +1,10 @@
+{
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "redirects": [
+        {
+            "source": "/index.html",
+            "destination": "https://randi-portfolio.vercel.app/",
+            "permanent": true
+        }
+    ]
+}
