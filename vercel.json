@@ -1,9 +1,8 @@
 {
-    "$schema": "https://openapi.vercel.sh/vercel.json",
     "redirects": [
         {
-            "source": "/index.html",
-            "destination": "https://randi-portfolio.vercel.app/",
+            "source": "/(.*)",
+            "destination": "https://randi-portfolio.vercel.app/$1",
             "permanent": true
         }
     ]
